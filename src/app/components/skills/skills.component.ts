@@ -1,19 +1,15 @@
 import { Component } from '@angular/core';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { 
-  faAngular, 
-  faPython, 
+import {
+  faAngular,
+  faPython,
   faAws,
-  faNode,
-  faDocker,
-  faJs,
-  faReact
+  faDocker
 } from '@fortawesome/free-brands-svg-icons';
 import {
   faDatabase,
   faServer,
-  faCloud,
-  faCode
+  faCloud
 } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
@@ -92,7 +88,4 @@ export class SkillsComponent {
   faServer = faServer;
   faCloud = faCloud;
   faDocker = faDocker;
-  faJs = faJs;
-  faReact = faReact;
-  faCode = faCode;
 }
